@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+button{
+  width: 250px;
+  height: 80px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: white;
+  border: 5px solid white;
+  border-radius: 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button:hover{
+  background-color: orange;
+}
+
+.click-button{
+background-color: rgb(51, 201, 201);
+}
+
+.click-button:hover{
+  background-color: green;
+
+  }
+
+.reset-button{
+background-color: red;
+}
+
+.reset-button:hover{
+  background-color: red;
+  border: 5px dashed white;
+  }
